@@ -6,4 +6,4 @@ outter_port=$5
 
 echo "[Script] - Upload to server: ${protocol}: ${inner_ip}:${inner_port} -> ${outter_ip}:${outter_port}"
 
-# Write your upload script below...
+/etc/natter/custom-script.sh "$protocol" "$inner_ip" "$inner_port" "$outter_ip" "$outter_port"
